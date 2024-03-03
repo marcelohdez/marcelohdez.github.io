@@ -6,18 +6,18 @@
   --radius-common: 1rem;
   --shadow-common: 2px 2px 8px #0f0f0faa;
 
-  --bg-color-primary: 238, 238, 238;
-  --bg-color-secondary: 220, 220, 220;
-  --bg-color-tertiary: 230, 230, 230;
+  --bg-color-primary: 240, 240, 240;
+  --bg-color-secondary: 245, 245, 245;
+  --bg-color-tertiary: 250, 250, 250;
   --text-color: #090909;
-  --subtext-color: 49, 49, 49;
+  --subtext-color: 42, 42, 42;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color-primary: 33, 33, 33;
     --bg-color-secondary: 9, 9, 9;
-    --bg-color-tertiary: 46, 46, 46;
+    --bg-color-tertiary: 49, 49, 49;
     --text-color: #ffffff;
     --subtext-color: 239, 239, 239;
   }
@@ -79,6 +79,7 @@ a:hover {
   font-style: italic;
   align-items: center;
   margin: var(--margin-common);
+  margin-top: 1rem;
   color: rgba(var(--subtext-color), 0.5);
 }
 
