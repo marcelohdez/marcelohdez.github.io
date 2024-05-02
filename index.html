@@ -1,125 +1,36 @@
 <!doctype html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <title>Marcelo Hernandez</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header>
-      <div class="title-section">
-        <div class="title-left">
-          <h1 class="title">Marcelo Hernandez</h1>
-          <div class="subtext">
-            College student interested in Java, Rust, and C/C++. Avid Linux
-            user.
-          </div>
-        </div>
-        <div class="title-right">
-          <ul class="cutout">
-            <li><a href="https://github.com/marcelohdez/">GitHub</a></li>
-            <li><a href="https://linkedin.com/in/marcelohdez">LinkedIn</a></li>
-          </ul>
+    <div class="flex flex-col sm:flex-row max-w-4xl mx-auto">
+      <div class="p-4 space-y-2 sm:w-min">
+        <p class="text-5xl font-extrabold">Marcelo Hernandez</p>
+
+        <div class="flex space-x-2">
+          <a href="assets/resume.pdf">Resume</a>
+          <p>|</p>
+          <a href="https://github.com/marcelohdez">GitHub</a>
+          <a href="https://linkedin.com/in/marcelohdez">LinkedIn</a>
         </div>
       </div>
-    </header>
 
-    <div class="main">
-      <div class="main-inner">
-        <p class="subtext">
-          I am an English and Spanish speaker, studying for a Computer Science
-          Associate's in Arts. Currently working at Miami-Dade College as an
-          Engineering and Technology tutor.
+      <div class="p-4 grow">
+        <p>
+          Hoohoo i am a very long and redundant string of text tryna take up all
+          of the space you have in this flexboxhehe
         </p>
-
-        <h4 class="section-text">See some of my work below:</h4>
-
-        <div class="divider">Rust</div>
-        <div class="card">
-          <div class="card-showcase">
-            <img src="images/atmpt-showcase.webp" alt="" />
-          </div>
-          <div class="card-desc">
-            <a href="https://github.com/marcelohdez/atmpt">
-              <h2 class="card-title">atmpt</h2>
-            </a>
-            <p class="subtext">
-              Easily create a temporary project in your favorite language and
-              open it in your desired <code>$VISUAL</code> editor. Upon exiting,
-              you can choose to save or instantly delete it.
-            </p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-showcase">
-            <img src="images/dim-showcase.webp" alt="" />
-          </div>
-          <div class="card-desc">
-            <a href="https://github.com/marcelohdez/dim">
-              <h2 class="card-title">dim</h2>
-            </a>
-            <p class="subtext">
-              A native wayland screen dimming tool. It will fail upon detecting
-              any input, but can be chained with e.g. swaylock to lock your
-              screen after a duration.
-            </p>
-          </div>
-        </div>
-
-        <div class="divider">Java</div>
-        <div class="card">
-          <div class="card-showcase">
-            <img src="images/looptube-showcase.webp" alt="" />
-          </div>
-          <div class="card-desc">
-            <a href="https://github.com/marcelohdez/LoopTube">
-              <h3 class="card-title">LoopTube</h3>
-            </a>
-            <p class="subtext">
-              Play, loop, and trim your favorite sections of a YouTube video or
-              an mp3. Requires yt-dlp and ffmpeg installed.
-            </p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-showcase">
-            <img src="images/define4me-showcase.webp" alt="" />
-          </div>
-          <div class="card-desc">
-            <a href="https://github.com/marcelohdez/Define4Me">
-              <h3 class="card-title">Define4Me</h3>
-            </a>
-            <p class="subtext">
-              Finds and outputs the definitions of a given list of
-              newline-separated terms pasted into it.
-            </p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-showcase">
-            <img src="images/imagetotext-showcase.webp" alt="" />
-          </div>
-          <div class="card-desc">
-            <a href="https://github.com/marcelohdez/ImageToText">
-              <h3 class="card-title">ImageToText</h3>
-            </a>
-            <p class="subtext">
-              Convert any image into ASCII characters for you to copy.
-            </p>
-          </div>
-        </div>
-
-        <div class="info">
-          <a href="mailto: marcelohdez.inq@gmail.com">
-            <p class="subtext">✉️ marcelohdez.inq@gmail.com</p>
-          </a>
-        </div>
       </div>
     </div>
   </body>
