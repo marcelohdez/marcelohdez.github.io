@@ -17,14 +17,18 @@
     />
   </head>
 
-  <body>
-    <div class="flex flex-col max-w-4xl mx-auto sm:flex-row">
-      <div class="p-4 space-y-4 sm:w-min">
-        <h1 class="text-center text-4xl font-extrabold sm:text-start">
+  <body
+    class="animate-fadein bg-stone-100 dark:bg-neutral-800 dark:text-stone-100"
+  >
+    <div class="flex flex-col max-w-4xl mx-auto md:flex-row">
+      <div class="p-4 space-y-4 md:w-min">
+        <h1 class="text-center text-4xl font-extrabold md:text-start">
           Marcelo Hernandez
         </h1>
 
-        <div class="flex space-x-4 justify-center sm:justify-start">
+        <div
+          class="flex space-x-4 underline decoration-gray-400 justify-center md:justify-start"
+        >
           <a href="assets/resume.pdf">Resume</a>
           <a href="https://github.com/marcelohdez">GitHub</a>
           <a href="https://linkedin.com/in/marcelohdez">LinkedIn</a>
@@ -32,62 +36,114 @@
       </div>
 
       <div class="p-4 grow space-y-4">
-        <h2 class="heading">About Me</h2>
-        <p class="pb-2 font-mono">
+        <h2>About Me</h2>
+        <p class="pb-2">
           Miami Dade College student and Engineering/Technology tutor interested
           in low-level programming and open-source software. Can write Java,
           C/C++, and Rust.
         </p>
 
-        <h2 class="heading">Personal Projects</h2>
-        <ul class="pb-2 space-y-2 font-mono">
-          <li>
-            <a href="https://github.com/marcelohdez/atmpt">atmpt</a>: Attempt
-            quick, temporary code projects in any editor.
+        <h2>Personal Projects</h2>
+        <ul class="pb-2 space-y-2">
+          <a href="https://github.com/marcelohdez/atmpt">
+            <li class="card">
+              <div class="cdate"><p class="my-auto">2024</p></div>
+              <div class="cinfo">
+                <b>atmpt</b>: Attempt quick, temporary code cards in any editor.
+                <ul class="ctags">
+                  <li>Rust</li>
+                  <li>CLI</li>
+                </ul>
+              </div>
+            </li>
+          </a>
+          <a href="https://github.com/marcelohdez/dim">
+            <li class="card">
+              <div class="cdate"><p class="my-auto">2024</p></div>
+              <div class="cinfo">
+                <b>dim</b>: Native Wayland screen dimmer.
+                <ul class="ctags">
+                  <li>Rust</li>
+                  <li>Wayland</li>
+                </ul>
+              </div>
+            </li>
+          </a>
+          <a href="https://github.com/marcelohdez/LoopTube">
+            <li class="card">
+              <div class="cdate"><p class="my-auto">2023</p></div>
+              <div class="cinfo">
+                <b>LoopTube</b>: Play and loop section(s) of YouTube video audio
+                <ul class="ctags">
+                  <li>Java</li>
+                </ul>
+              </div>
+            </li>
+          </a>
+          <a href="https://github.com/marcelohdez/Define4Me">
+            <li class="card">
+              <div class="cdate"><p class="my-auto">2023</p></div>
+              <div class="cinfo">
+                <b>Define4Me</b>: Defines a given list of words pasted into it
+                <ul class="ctags">
+                  <li>Java</li>
+                </ul>
+              </div>
+            </li>
+          </a>
+          <a href="https://github.com/marcelohdez/ImageToText">
+            <li class="card">
+              <div class="cdate"><p class="my-auto">2023</p></div>
+              <div class="cinfo">
+                <b>ImageToText</b>: Convert images into ASCII for you to copy.
+                <ul class="ctags">
+                  <li>Java</li>
+                </ul>
+              </div>
+            </li>
+          </a>
+        </ul>
+
+        <h2>Experience</h2>
+        <ul class="pb-2 space-y-2">
+          <li class="card">
+            <div class="cdate">
+              <p class="my-auto text-center">2023<br />-<br />Now</p>
+            </div>
+            <div class="cinfo">
+              <b>Miami Dade College - EnTec Tutor</b>
+              <p>
+                Providing extensive insight to students in Microsoft Office
+                products and the C, C++, or Java programming languages.
+              </p>
+            </div>
           </li>
-          <li>
-            <a href="https://github.com/marcelohdez/atmpt">dim</a>: Native
-            Wayland screen dimmer.
-          </li>
-          <li>
-            <a href="https://github.com/marcelohdez/LoopTube">LoopTube</a>: Play
-            and loop section(s) of YouTube video audio
-          </li>
-          <li>
-            <a href="https://github.com/marcelohdez/Define4Me">Define4Me</a>:
-            Defines a given list of words pasted into it
-          </li>
-          <li>
-            <a href="https://github.com/marcelohdez/ImageToText">ImageToText</a
-            >: Convert images into ASCII for you to copy.
+
+          <li class="card">
+            <div class="cdate">
+              <p class="my-auto text-center">2022<br />-<br />2023</p>
+            </div>
+            <div class="cinfo">
+              <b>Pizza Hut - Call Center Agent</b>
+              <p>
+                Quickly comprehended the needs of customers, offering the best
+                fitting product, educating them of available alternatives, or
+                otherwise offering the relevant help line.
+              </p>
+            </div>
           </li>
         </ul>
 
-        <h2 class="heading">Experience</h2>
-        <ul class="pb-2 space-y-2 font-mono">
-          <li>
-            <b>Miami Dade College, Kendall Campus - EnTec Tutor</b>
-            <p>
-              Providing extensive insight to students in Microsoft Office
-              products and the C, C++, or Java programming languages.
-            </p>
-          </li>
-
-          <li>
-            <b>Pizza Hut - Call Center Agent</b>
-            <p>
-              Quickly comprehended the needs of customers, offering the best
-              fitting product, educating them of available alternatives, or
-              otherwise offering the relevant help line.
-            </p>
-          </li>
-        </ul>
-
-        <h2 class="heading">Education</h2>
-        <ul class="pb-2 space-y-2 font-mono">
-          <li>
-            <b>Miami Dade College (AUG 2022 - AUG 2024)</b>
-            <p>Computer Science Associate's in Arts</p>
+        <h2>Education</h2>
+        <ul class="pb-2 space-y-2">
+          <li class="card">
+            <div class="cdate">
+              <p class="my-auto text-center">2022<br />-<br />Now</p>
+            </div>
+            <div class="cinfo">
+              <b>Miami Dade College (AUG 2022 - AUG 2024)</b>
+              <p>Computer Science Associate's in Arts</p>
+            </div>
           </li>
         </ul>
       </div>
