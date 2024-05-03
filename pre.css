@@ -7,6 +7,10 @@
     @apply my-2;
   }
 
+  a li.card {
+    @apply transition-all hover:brightness-90 dark:hover:brightness-125;
+  }
+
   .cdate {
     @apply flex rounded-xl px-2 bg-neutral-100 dark:bg-stone-700;
   }
@@ -20,8 +24,7 @@
   }
 
   .card {
-    @apply flex space-x-2;
-    @apply p-2 transition-all hover:brightness-90 dark:hover:brightness-125;
+    @apply flex p-2 space-x-2;
     @apply rounded-xl bg-white dark:bg-neutral-900;
   }
 
