@@ -3,7 +3,8 @@ module.exports = {
   content: ["./**/*.html"],
   theme: {
     fontFamily: {
-      sans: ["Fira Sans", "sans-serif", "monospace"],
+      sans: ["Fira Sans", "sans-serif"],
+      mono: ["Fira Code", "monospace"],
     },
     extend: {},
   },

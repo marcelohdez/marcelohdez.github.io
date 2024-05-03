@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  a {
+    @apply underline decoration-gray-400;
+  }
+
+  li a {
+    @apply text-blue-500;
+  }
+
+  .heading {
+    @apply text-2xl font-bold;
+  }
+}
+
+li::before {
+  content: "-";
+}

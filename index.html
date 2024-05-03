@@ -11,27 +11,92 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <div class="flex flex-col sm:flex-row max-w-4xl mx-auto">
-      <div class="p-4 space-y-2 sm:w-min">
-        <p class="text-5xl font-extrabold">Marcelo Hernandez</p>
+    <div class="flex flex-col max-w-4xl mx-auto sm:flex-row">
+      <div class="p-4 space-y-4 sm:w-min">
+        <h1 class="text-center text-4xl font-extrabold sm:text-start">
+          Marcelo Hernandez
+        </h1>
 
-        <div class="flex space-x-2">
+        <div class="flex space-x-4 justify-center sm:justify-start">
           <a href="assets/resume.pdf">Resume</a>
-          <p>|</p>
           <a href="https://github.com/marcelohdez">GitHub</a>
           <a href="https://linkedin.com/in/marcelohdez">LinkedIn</a>
         </div>
       </div>
 
-      <div class="p-4 grow">
-        <p>
-          Hoohoo i am a very long and redundant string of text tryna take up all
-          of the space you have in this flexboxhehe
+      <div class="p-4 grow space-y-4">
+        <h2 class="heading">About Me</h2>
+        <p class="pb-2 font-mono">
+          Miami Dade College student and Engineering/Technology tutor interested
+          in low-level programming and open-source software. Can write Java,
+          C/C++, and Rust.
         </p>
+
+        <h2 class="heading">Personal Projects</h2>
+        <ul class="pb-2 space-y-2 font-mono">
+          <li>
+            <a href="https://github.com/marcelohdez/atmpt">atmpt</a>: Attempt
+            quick, temporary code projects in any editor.
+          </li>
+          <li>
+            <a href="https://github.com/marcelohdez/atmpt">dim</a>: Native
+            Wayland screen dimmer.
+          </li>
+          <li>
+            <a href="https://github.com/marcelohdez/LoopTube">LoopTube</a>: Play
+            and loop section(s) of YouTube video audio
+          </li>
+          <li>
+            <a href="https://github.com/marcelohdez/Define4Me">Define4Me</a>:
+            Defines a given list of words pasted into it
+          </li>
+          <li>
+            <a href="https://github.com/marcelohdez/ImageToText">ImageToText</a
+            >: Convert images into ASCII for you to copy.
+          </li>
+        </ul>
+
+        <h2 class="heading">Experience</h2>
+        <ul class="pb-2 space-y-2 font-mono">
+          <li>
+            <b>Miami Dade College, Kendall Campus - EnTec Tutor</b>
+            <p>
+              Providing extensive insight to students in Microsoft Office
+              products and the C, C++, or Java programming languages.
+            </p>
+          </li>
+
+          <li>
+            <b>Pizza Hut - Call Center Agent</b>
+            <p>
+              Quickly comprehended the needs of customers, offering the best
+              fitting product, educating them of available alternatives, or
+              otherwise offering the relevant help line.
+            </p>
+          </li>
+        </ul>
+
+        <h2 class="heading">Education</h2>
+        <ul class="pb-2 space-y-2 font-mono">
+          <li>
+            <b>Miami Dade College (AUG 2022 - AUG 2024)</b>
+            <p>Computer Science Associate's in Arts</p>
+          </li>
+        </ul>
       </div>
     </div>
+
+    <footer>
+      <div>
+        <a href="mailto:marcelohdez.inq@gmail.com">✉️ Email Me</a>
+      </div>
+    </footer>
   </body>
 </html>
