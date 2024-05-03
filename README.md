@@ -13,7 +13,7 @@ npm install
 Then run this command to watch for changes:
 
 ```bash
-npx tailwindcss -i ./pre.css -o ./style.css
+npx tailwindcss -i ./pre.css -o ./style.css --watch
 ```
 
 ## License
