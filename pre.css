@@ -11,8 +11,12 @@
     @apply transition-all hover:brightness-90 dark:hover:brightness-125;
   }
 
+  p {
+    @apply opacity-90;
+  }
+
   .cdate {
-    @apply flex rounded-xl px-2 bg-neutral-100 dark:bg-stone-700;
+    @apply flex rounded-xl px-2 leading-tight bg-neutral-100 dark:bg-stone-700;
   }
 
   .cinfo {
@@ -20,7 +24,7 @@
   }
 
   .ctags li {
-    @apply inline rounded-xl px-2 bg-emerald-100 dark:bg-emerald-800;
+    @apply inline rounded-lg px-2 bg-emerald-100 dark:bg-emerald-800;
   }
 
   .card {

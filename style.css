@@ -577,6 +577,10 @@ a li.card:hover {
   }
 }
 
+p {
+  opacity: 0.9;
+}
+
 .cdate {
   display: flex;
   border-radius: 0.75rem;
@@ -584,6 +588,7 @@ a li.card:hover {
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  line-height: 1.25;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -601,7 +606,7 @@ a li.card:hover {
 
 .ctags li {
   display: inline;
-  border-radius: 0.75rem;
+  border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(209 250 229 / var(--tw-bg-opacity));
   padding-left: 0.5rem;
