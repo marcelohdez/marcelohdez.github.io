@@ -586,8 +586,7 @@ p {
   border-radius: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding: 0.5rem;
   line-height: 1.25;
 }
 

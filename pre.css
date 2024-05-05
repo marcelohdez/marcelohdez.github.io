@@ -16,7 +16,7 @@
   }
 
   .cdate {
-    @apply flex rounded-xl px-2 leading-tight bg-neutral-100 dark:bg-stone-700;
+    @apply flex rounded-xl p-2 leading-tight bg-neutral-100 dark:bg-stone-700;
   }
 
   .cinfo {
